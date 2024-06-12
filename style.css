@@ -11,7 +11,7 @@
 }
 /*header*/
 header, footer{
-    height: 7vh;
+    max-height: 7vh;
 }
 .header_nav{
     display: flex;
@@ -42,7 +42,7 @@ a:hover{
     height: 120px;
     object-fit: contain;
 }
-/*Main*/
+/*Main home*/
 main{
     min-height: 86vh;
     background-color: rgba(176, 214, 201, 0.966);
@@ -76,6 +76,23 @@ h1{
     flex-direction: row-reverse;
     text-align: justify;
     margin-left: 20px;
+}
+/*main about us*/
+.reseñas{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 8px;
+}
+.img_main_about{
+    width: 180px;
+    margin: 5px;
+}
+.texto_about{
+    font-size: 20px;
+    text-align: justify;
+    margin: 20px;
+    width: 120ch;
 }
 /*Footer*/
 .footer{
