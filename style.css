@@ -3,3 +3,20 @@
     padding: 0px;
     box-sizing: border-box;
 }
+header, footer{
+    height: 10vh;
+}
+main{
+    min-height: 80vh;
+    background-color: aquamarine;
+}
+.navbar{
+    background-color: rgb(178, 221, 207);
+    color: rgb(5, 2, 2);
+    
+    border: 2px solid white;
+    border-radius: 70px;
+}
+.a{
+text-decoration: none;
+}
