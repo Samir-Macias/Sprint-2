@@ -117,7 +117,7 @@ gap: 25px;
    padding: 50px;
    font-size: 22px;
 }
-/*main benefits*/
+/*main information*/
 table,tr,td,th{
     border: 2px solid black;
 }
@@ -156,12 +156,28 @@ h4{
     font-size: 20px;
     text-decoration: underline;
 }
-ol{
-    padding: px;
-}
+/*main benefits*/
+
 dt,dd{
     padding: 10px 30px;
+    
 }
+dt{
+    font-size: 20px;
+    font-weight: bold;
+}
+dd{
+display: flex;
+gap: 40px;
+}
+ol{
+    align-content: center;
+
+}
+.img_tips{
+    width: 150px;
+}
+
 /*Footer*/
 .footer{
     min-height: 7vh;
