@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
 </head>
+
 <body>
     <div class="formato">
         <header class="header_nav">
@@ -26,11 +28,67 @@
                 <H2>Raffle</H2>
                 <h4>You can collaborate to hold an exhibition event and participate in a raffle to win an easel</h4>
             </section>
-            <form action="./show_data.html"></form>
+            <div class="main_raffle">
+                <form action="./show_data.html" method="get">
+                    <fieldset>
+                        <label class="text" >
+                            First Name
+                            <input type="text" name="fisrtname" placeholder="Your Name">
+                        </label>
+                        <label class="text">
+                            Last Name
+                            <input type="text" name="lastname" placeholder="Last Name">
+                        </label>
+                        <label class="text" for="text">
+                            Choose Meet or Zoom
+                            <select name="select">
+                                <option selected disabled>Choose an option</option>
+                                <option value="Meet">Meet</option>
+                                <option value="Zoom">Zoom</option>
+                            </select>
+                        </label>
+
+                        <label class="text">
+                            Choose Date
+                            <input type="date" name="date">
+                        </label>
+                        <label>
+                            <input type="radio" name="radio" value="1">
+                            Cash
+
+
+                        </label>
+                        <label>
+                            <input type="radio" name="radio" value="2">
+                            Credit Card
+                        </label>
+                        <label>
+                            <input type="radio" name="radio" value="3">
+                            Debit Card
+                        </label>
+                        <label>
+                            Message (Optional)
+                            <textarea name="Message" id="" cols="30" rows="10"></textarea>
+                        </label>
+                        <div>
+                            <label>
+                                <input type="checkbox" name="confirm" required value="123">
+                                I accept terms and conditions...
+                            </label>
+                            <button>Send</button>
+                        </div>
+                    </fieldset>
+                </form>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56671.12189686253!2d-118.42494586252947!3d34.06278856458377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf07045279bf%3A0xf67a9a6797bdfae4!2sHollywood%2C%20Los%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sco!4v1718827665226!5m2!1ses-419!2sco"
+                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </main>
         <footer class="footer">
             <p class="texto_footer">Created by: Samir Macias</p>
         </footer>
     </div>
 </body>
+
 </html>
